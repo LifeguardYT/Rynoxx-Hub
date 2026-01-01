@@ -29,11 +29,11 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Key",
       Subtitle = "Key System",
-      Note = "Go to the official Discord server for the key!", -- Use this to tell the user how to get a key
+      Note = "No Discord server yet, key is: CXEH55UYZ6", -- Use this to tell the user how to get a key
       FileName = "RynoxxKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = false, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"TestingKey"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"CXEH55UYZ6"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
 
@@ -104,7 +104,7 @@ getgenv().Skip = true --values of 'true' and 'false'
 getgenv().AntiAfk = false -- values of 'true' and 'false'
 getgenv().Script = "https://raw.githubusercontent.com/Ssmmc3/ClickTP/main/ClickTP"
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/abramsonhan/RScritps/refs/heads/main/rbxscript"))() 	
+loadstring(game:HttpGet("https://raw.githubusercontent.com/abramsonhan/RScritps/refs/heads/main/rbxscript"))()	
 
    end,
 })
